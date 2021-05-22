@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyConverter</title>
+</head>
+<body>
+    <img src="Currency3.jpeg" class=Image_Logo alt="Image"></img>
+    <h1>Currency Converter</h1>
+    <p>Choose The Currency and the amounts to get the exchange rates </p>
+    <h3 align="center">FROM</h3>
+    <div class="container">
+        <div clas="currency">
+            <select id="currency1">
+                <option value="USD">United States Dollars</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">United Kingdom Pounds</option>
+                <option value="AUD">Australia Dollars</option>
+                <option value="ATS">Austria Schillongs</option>
+                <option value="CAD">Canada Dollors</option>
+                <option value="HKD">Hong Kong Dollars</option>
+                <option value="HUF">Hungary Forint</option>
+                <option value="ISK">Iceland Krona</option>
+                <option value="INR" selected>Indian Rupees</option>
+                <option value="IDR">Indonesia Rupiah</option>
+                <option value="IEP">Ireland Punt</option>
+                <option value="ILS">Israel New Shekels</option>
+                <option value="KRW">Korea (South) Won</option>
+                <option value="NZD">New Zeeland Dollars</option>
+                <option value="NDK">Norway Kroner</option>
+                <option value="SGD">Singapore Dollars</option>
+                <option value="ZAR">South Africa Rand</option>
+                <option value="KRW">South Korea Won</option>
+                <option value="XPI">Platinum Ounces</option>
+            </select>
+            <input type="number" id="amount1" placeholder="0" value="1">
+        </div>
+        <div class="swap-rate-container">
+            <button class="btn" id="swap">Swap</button>
+            <div class="rate" id="rate" ></div>
+        </div>
+        <h3 align="center">TO</h3>
+        <div clas="currency">
+            <select id="currency2">
+                <option value="USD" selected>United States Dollars</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">United Kingdom Pounds</option>
+                <option value="AUD">Australia Dollars</option>
+                <option value="ATS">Austria Schillongs</option>
+                <option value="CAD">Canada Dollors</option>
+                <option value="HKD">Hong Kong Dollars</option>
+                <option value="HUF">Hungary Forint</option>
+                <option value="ISK">Iceland Krona</option>
+                <option value="INR">Indian Rupees</option>
+                <option value="IDR">Indonesia Rupiah</option>
+                <option value="IEP">Ireland Punt</option>
+                <option value="ILS">Israel New Shekels</option>
+                <option value="KRW">Korea (South) Won</option>
+                <option value="NZD">New Zeeland Dollars</option>
+                <option value="NDK">Norway Kroner</option>
+                <option value="SGD">Singapore Dollars</option>
+                <option value="ZAR">South Africa Rand</option>
+                <option value="KRW">South Korea Won</option>
+                <option value="XPI">Platinum Ounces</option>
+            </select>
+            <input type="number" id="amount2" placeholder="0" value="0">
+        </div>
+        <h4 align="center">Created By Viswas Pal</h3>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
